@@ -324,3 +324,5 @@
 
 /* Three project cards on wide screens; retain the tablet and mobile layouts. */
 @media(min-width:1101px){.experience-v2 .projects{grid-template-columns:repeat(3,minmax(0,1fr))}.experience-v2 .art-word{font-size:clamp(32px,3.1vw,56px)}}
+
+.ineffable-break h2 .ineffable-flourish{width:1.5em;height:1em;margin-left:.15em;vertical-align:middle;line-height:0;letter-spacing:0}.ineffable-flourish svg{display:block;width:100%;height:100%}
