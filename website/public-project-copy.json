@@ -1,0 +1,41 @@
+{
+  "nl": {
+    "P032": {
+      "year": "2020–2021"
+    },
+    "P061": {
+      "year": "",
+      "client": "Zin in Werk / Terug naar Werk"
+    },
+    "P069": {
+      "client": "Part-up"
+    },
+    "P072": {
+      "client": "",
+      "role": ""
+    },
+    "P073": {
+      "role": "Workshopontwerp / facilitatie"
+    }
+  },
+  "en": {
+    "P032": {
+      "year": "2020–2021"
+    },
+    "P061": {
+      "year": "",
+      "client": "Zin in Werk / Terug naar Werk"
+    },
+    "P069": {
+      "client": "Part-up"
+    },
+    "P072": {
+      "client": "",
+      "role": "",
+      "description": "Involved in an orienteering experience in the Ardennes."
+    },
+    "P073": {
+      "role": "Workshop design & facilitation"
+    }
+  }
+}

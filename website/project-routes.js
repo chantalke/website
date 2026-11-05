@@ -1,0 +1,2 @@
+const PROJECT_ROUTES={P012:'alfen-teamontwikkeling',P001:'future-village',P002:'plan-je-rot',P003:'positive-health-experience',P004:'nightingale-society',P005:'diversity-inclusion',P006:'changetrek',P007:'office-365-lego-game',P008:'order-to-pay-lego-game',P020:'wundernacht',P031:'human-centred-technology',P016:'part-up-skills-self-organisation'};
+function projectUrl(id){const slug=PROJECT_ROUTES[id];return slug?`project-${slug}${document.documentElement.lang==='en'?'-en':''}.html`:null;}

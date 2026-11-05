@@ -1,0 +1,2 @@
+# Supported by Cloudflare Pages / Netlify; configure equivalent rules on other hosts.
+/index.html / 301

@@ -1,0 +1,16 @@
+# Only website source and deployment instructions belong in this repository.
+/*
+!/.gitignore
+!/README.md
+!/prepare_publish.py
+!/.github/
+!/scripts/
+!/website/
+**/.DS_Store
+**/__pycache__/
+**/*.pyc
+website/index-magazine.html
+website/index-magazine-en.html
+website/assets/experience-loop.mp4
+.env
+.env.*
