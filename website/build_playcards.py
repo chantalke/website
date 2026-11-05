@@ -1,0 +1,22 @@
+"""Build bilingual, accessible Playcards from the transcribed original deck."""
+from pathlib import Path
+from html import escape
+import json
+ROOT=Path(__file__).resolve().parent
+cards=json.loads((ROOT/'playcards-content.json').read_text())
+assert len(cards)==50 and len({c['id'] for c in cards})==50
+out=ROOT/'playcards';out.mkdir(exist_ok=True)
+logo=(ROOT/'assets/cosmic-mark.svg').read_text().replace('<svg ','<svg class="cosmic-mark" aria-hidden="true" ',1)
+for lang,file in [('nl','index.html'),('en','en.html')]:
+ en=lang=='en'; home='index-en.html' if en else 'index.html'
+ title='Playcards — Time and space | Chantal van Kempen'
+ description='Small games for fresh energy, creativity and collaboration in your team.' if en else 'Kleine spellen voor frisse energie, creativiteit en samenwerking in je team.'
+ deck=[dict(id=c['id'],**c[lang]) for c in cards]
+ body=f'''<!doctype html>
+<html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><base href="../"><title>{title}</title><meta name="description" content="{description}"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="experience.css"><link rel="stylesheet" href="playcards.css"><script src="playcards.js" defer></script></head>
+<body class="experience-v2 playcards-page"><a class="skip" href="playcards/{file}#main">{'Skip to content' if en else 'Naar de inhoud'}</a><header><a class="brand" href="{home}">Chantal<br>van Kempen<span class="brand-symbol">{logo}</span></a><nav></nav></header>
+<main id="main" class="playcards-layout"><div class="playcards-intro"><p class="eyebrow">TIME AND SPACE / PLAYCARDS</p><h1>{'A little play.<br><em>A fresh perspective.</em>' if en else 'Even spelen.<br><em>Anders kijken.</em>'}</h1><p>{'A quick game to spark creativity, explore a challenge or connect with your team. Draw a card at the start of a meeting or your working day. Try it. See what happens.' if en else 'Een kort spel om creativiteit aan te wakkeren, een uitdaging te onderzoeken of je team te verbinden. Trek een kaart bij de start van een overleg of werkdag. Probeer het. Kijk wat er gebeurt.'}</p><p class="edition">50 {'SMALL EXPERIMENTS / BY' if en else 'KLEINE EXPERIMENTEN / DOOR'} CHANTAL VAN KEMPEN</p><a class="quiet-link" href="{home}">{'Explore my world' if en else 'Ontdek mijn wereld'} ↗</a></div>
+<div class="playcards-stage"><article class="playcard" aria-labelledby="card-title" aria-live="polite" aria-atomic="true"><p id="card-number" class="eyebrow">TIME AND SPACE</p><h2 id="card-title">{'Make room<br>for play.' if en else 'Maak ruimte<br>voor spel.'}</h2><p id="card-principle" class="card-principle" hidden></p><p id="card-text">{'Draw a card. Read the prompt together and give it a go. Every card is a small invitation to try something different.' if en else 'Trek een kaart. Lees de opdracht samen en ga aan de slag. Elke kaart is een kleine uitnodiging om iets anders te proberen.'}</p><p class="card-signature">PLAYCARDS / CHANTAL VAN KEMPEN</p></article><div class="playcards-actions"><button id="draw-card" type="button">{'Draw a playcard' if en else 'Trek een speelkaart'} ↗</button><button class="previous" id="previous-card" type="button" disabled>← {'Previous' if en else 'Vorige'}</button></div><p id="cards-status" class="playcards-status" role="status" aria-live="polite">{'Shuffled deck · each card appears once per round.' if en else 'Geschud kaartspel · elke kaart komt één keer per ronde langs.'}</p><details><summary>{'All 50 cards / text version' if en else 'Alle 50 kaarten / tekstversie'} +</summary><ol>{''.join(f'<li><h3>{escape(c[lang]["title"])}</h3><p>{escape(c[lang]["principle"])}</p><p>{escape(c[lang]["text"])}</p></li>' for c in cards)}</ol></details><noscript><p class="no-script">{'JavaScript is needed to draw a random card. All cards are available in the text version above.' if en else 'Voor een willekeurige kaart is JavaScript nodig. Alle kaarten staan in de tekstversie hierboven.'}</p></noscript></div></main>
+<footer><span>© Chantal van Kempen</span><a href="{home}">{'Back to the website' if en else 'Terug naar de website'} ↗</a><a href="playcards/{'index.html' if en else 'en.html'}" lang="{'nl' if en else 'en'}">{'Nederlands' if en else 'English'} ↗</a></footer><script type="application/json" id="playcards-data">{json.dumps(deck,ensure_ascii=False).replace('<', chr(92)+'u003c')}</script></body></html>'''
+ (out/file).write_text(body)
+print('Built Dutch and English Playcards, 50 cards each.')

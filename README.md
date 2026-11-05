@@ -25,6 +25,12 @@ Het beoogde toekomstige eigen domein is `chantalvankempen.nl`. De huidige public
 
 De lokale werkmap kan daarnaast `output/`, `backups/`, `tmp/`, `previews/`, cv-werkbestanden en onderzoeksnotities bevatten. Die zijn bewust niet allemaal onderdeel van de Git-repository. Een nieuwe clone bevat de bronbestanden die nodig zijn om de website opnieuw te bouwen.
 
+## Playcards
+
+De tweetalige speelkaarten staan op `/playcards/` en `/playcards/en.html`. De 50 opdrachten en de introductie zijn overgezet van [de oorspronkelijke Playcards](https://playcards.chantalvankempen.nl/). `website/playcards-content.json` bevat de overgenomen Engelse tekst en Nederlandse vertaling; `source_card` verwijst naar het nummer van de oorspronkelijke SVG. De kaartteksten zijn getranscribeerd; de oude afbeeldingen worden niet meer geladen.
+
+`website/build_playcards.py` bouwt beide pagina’s als onderdeel van de volledige build. Opmaak en interactie staan in `website/playcards.css` en `website/playcards.js`. De stapel wordt zonder herhaling geschud; terugbladeren blijft mogelijk. Alle kaarten zijn ook beschikbaar als uitklapbare tekstversie.
+
 ## Techniek
 
 De website is statisch: HTML, CSS en JavaScript. Er is geen framework, database, formulierbackend of serverapplicatie nodig. Python en Node worden alleen gebruikt om de webbestanden te bouwen en controleren. Er zijn geen pip- of npm-pakketten nodig.

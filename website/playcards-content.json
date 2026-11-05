@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "source_card": 2,
+    "en": {
+      "title": "Student Syndrome",
+      "text": "No Last-Day Heroes: The person who completes his task at the last day of the sprint receives the Last day hero award.",
+      "principle": "We delay work until the last minute."
+    },
+    "nl": {
+      "title": "Studentensyndroom",
+      "text": "Geen helden op de laatste dag: wie een taak pas op de laatste dag van de sprint afrondt, ontvangt de Laatste-dagheld-prijs.",
+      "principle": "We stellen werk uit tot het laatste moment."
+    }
+  },
+  {
+    "id": 2,
+    "source_card": 3,
+    "en": {
+      "title": "Murphy’s Law",
+      "text": "Disaster Drill Challenge: Plan a task, then introduce a fictional \"disaster\" midway to see if the team can still complete it on time.",
+      "principle": "Expect setbacks; anything that can go wrong, will."
+    },
+    "nl": {
+      "title": "De wet van Murphy",
+      "text": "Rampenproef: plan een taak en introduceer halverwege een denkbeeldige ramp. Kan het team de taak toch op tijd afronden?",
+      "principle": "Wat mis kan gaan, gaat mis: houd rekening met tegenslag."
+    }
+  },
+  {
+    "id": 3,
+    "source_card": 4,
+    "en": {
+      "title": "Law of Diminishing Returns",
+      "text": "Peak & Pass: Set a timer for when you feel most productive; as soon as your output slows, pass the task to a teammate or switch to a new task to keep energy high.",
+      "principle": "After a point, more time yields smaller gains."
+    },
+    "nl": {
+      "title": "Afnemende meeropbrengst",
+      "text": "Piek en geef door: zet een timer als je lekker werkt. Zodra je tempo daalt, geef je de taak door aan een collega of wissel je van taak om de energie hoog te houden.",
+      "principle": "Vanaf een bepaald punt levert extra tijd steeds minder op."
+    }
+  },
+  {
+    "id": 4,
+    "source_card": 5,
+    "en": {
+      "title": "Pareto Principle",
+      "text": "Trim the List: List the 10 things that will consume the most time on this project, rank them by importance, and eliminate the least important item to streamline your workload. It can be tasks, features, sessions.",
+      "principle": "80% of results come from 20% of efforts."
+    },
+    "nl": {
+      "title": "Het Paretoprincipe",
+      "text": "Snoei de lijst: schrijf de tien dingen op die in dit project de meeste tijd kosten. Rangschik ze op belang en schrap de minst belangrijke. Denk aan taken, functies of bijeenkomsten.",
+      "principle": "80% van de resultaten komt voort uit 20% van de inspanning."
+    }
+  },
+  {
+    "id": 5,
+    "source_card": 6,
+    "en": {
+      "title": "Hofstadter’s Law",
+      "text": "Time Gambit: Have each team member estimate the duration of a task, then play planning poker to reach a group consensus; track individual guesses and the actual time taken to see who predicted best.",
+      "principle": "Tasks take longer than expected, even if we account for this."
+    },
+    "nl": {
+      "title": "De wet van Hofstadter",
+      "text": "Tijdgok: laat iedereen inschatten hoelang een taak duurt. Bereik met planning poker een gezamenlijke schatting. Vergelijk de individuele schattingen met de werkelijke tijd: wie zat het dichtstbij?",
+      "principle": "Taken duren langer dan verwacht, ook als je daar rekening mee houdt."
+    }
+  },
+  {
+    "id": 6,
+    "source_card": 7,
+    "en": {
+      "title": "Law of Triviality",
+      "text": "Hit & Run Highlights: Each person gives just one sentence per topic, you have 30 seconds to think of something. no extras allowed—watch how quickly the meeting wraps up with only the highlights.",
+      "principle": "Meetings waste time on minor issues."
+    },
+    "nl": {
+      "title": "De wet van trivialiteit",
+      "text": "Alleen de highlights: iedereen krijgt per onderwerp één zin. Neem dertig seconden om die te bedenken. Geen extra uitleg: kijk hoe snel je met alleen de kern klaar bent.",
+      "principle": "In overleggen gaat vaak veel tijd naar kleine bijzaken."
+    }
+  },
+  {
+    "id": 7,
+    "source_card": 8,
+    "en": {
+      "title": "Eisenhower Matrix",
+      "text": "Secretly in Disguise: Find three tasks that cleverly disguise themselves as urgent but are actually non-essential.",
+      "principle": "Important tasks are rarely urgent, prioritize accordingly."
+    },
+    "nl": {
+      "title": "De Eisenhowermatrix",
+      "text": "Vermomd als urgent: zoek drie taken die zich voordoen als dringend, maar eigenlijk niet essentieel zijn.",
+      "principle": "Belangrijke taken zijn zelden urgent: stel bewust prioriteiten."
+    }
+  },
+  {
+    "id": 8,
+    "source_card": 9,
+    "en": {
+      "title": "Parkinson’s Law",
+      "text": "Half-Time Hustle: Allocate only half the expected time for a task and see if you can still achieve the same quality outcome.",
+      "principle": "Tasks expand to fill the available time."
+    },
+    "nl": {
+      "title": "De wet van Parkinson",
+      "text": "Halve tijd: reserveer voor een taak de helft van de verwachte tijd. Kun je hetzelfde kwaliteitsniveau halen?",
+      "principle": "Werk dijt uit tot het de beschikbare tijd vult."
+    }
+  },
+  {
+    "id": 9,
+    "source_card": 10,
+    "en": {
+      "title": "Parkinson’s Law 2",
+      "text": "Strip Poker: As you work through a task, \"strip away\" one non-essential tool, resource, or extra step at regular intervals —see how lean you can go while still achieving a quality outcome!",
+      "principle": "Resources (like time) are always fully used."
+    },
+    "nl": {
+      "title": "De wet van Parkinson 2",
+      "text": "Strip poker: haal tijdens een taak op vaste momenten een niet-essentieel hulpmiddel, middel of extra stap weg. Hoe ver kun je vereenvoudigen en toch kwaliteit leveren?",
+      "principle": "Beschikbare middelen, zoals tijd, worden helemaal gebruikt."
+    }
+  },
+  {
+    "id": 10,
+    "source_card": 11,
+    "en": {
+      "title": "Proximity Principle",
+      "text": "Close Quarters Challenge: Set up a \"tool zone\" where all team resources are easily accessible, and challenge team members to complete tasks without leaving this area to streamline focus and minimize distractions. This can be software, physical tools or a person.",
+      "principle": "Keep essential tools close to your workspace to boost efficiency and reduce distractions."
+    },
+    "nl": {
+      "title": "Het nabijheidsprincipe",
+      "text": "Alles binnen bereik: maak een plek waar alle teammiddelen toegankelijk zijn. Rond taken af zonder die plek te verlaten. Het kan gaan om software, fysieke hulpmiddelen of een persoon.",
+      "principle": "Houd belangrijke hulpmiddelen dichtbij om afleiding te verminderen."
+    }
+  },
+  {
+    "id": 11,
+    "source_card": 12,
+    "en": {
+      "title": "Principle of Least Effort",
+      "text": "Shortcut Showdown: Each team member finds the quickest way to complete a task, then shares their method with the group to see who found the most efficient shortcut.",
+      "principle": "We choose the easiest path, sometimes cutting corners."
+    },
+    "nl": {
+      "title": "De weg van de minste moeite",
+      "text": "De kortste route: iedereen zoekt de snelste manier om een taak af te ronden. Deel jullie aanpak: wie vond de handigste afkorting?",
+      "principle": "We kiezen de makkelijkste route en snijden soms bochten af."
+    }
+  },
+  {
+    "id": 12,
+    "source_card": 13,
+    "en": {
+      "title": "The Curiosity Catalyst",
+      "text": "Curiosity Quest: Start a project by having each team member write one question they're curious about; explore answers throughout the week and share insights at the next meeting.",
+      "principle": "Approaching tasks with curiosity boosts motivation and creativity."
+    },
+    "nl": {
+      "title": "Nieuwsgierigheid als aanjager",
+      "text": "Nieuwsgierigheidstocht: laat bij de projectstart iedereen één vraag opschrijven waar die nieuwsgierig naar is. Onderzoek de antwoorden gedurende de week en deel ze bij het volgende overleg.",
+      "principle": "Nieuwsgierig aan een taak beginnen geeft motivatie en creativiteit ruimte."
+    }
+  },
+  {
+    "id": 13,
+    "source_card": 14,
+    "en": {
+      "title": "Illich’s Law",
+      "text": "Afternoon Tea Recharge: Schedule a daily afternoon tea break where the team gathers to catch up, replenish energy, and reset, helping everyone stay refreshed and productive for the remainder of the day.",
+      "principle": "Efficiency drops with excessive hours."
+    },
+    "nl": {
+      "title": "De wet van Illich",
+      "text": "Theepauze: plan elke middag een gezamenlijk theemoment om bij te praten, energie aan te vullen en opnieuw te beginnen. Zo ga je opgefrist verder met de dag.",
+      "principle": "Bij te veel werkuren neemt de effectiviteit af."
+    }
+  },
+  {
+    "id": 14,
+    "source_card": 15,
+    "en": {
+      "title": "Swoboda-Fliess-Teltscher Law",
+      "text": "Peak Performance Tracker: Have each team member note their energy levels hourly for a day to identify when they feel most productive, then compare patterns at the end of the week.",
+      "principle": "Productivity fluctuates with natural body rhythms."
+    },
+    "nl": {
+      "title": "Swoboda-Fliess-Teltscher",
+      "text": "Volg je energie: noteer een dag lang elk uur je energieniveau. Wanneer werk je het prettigst? Vergelijk aan het einde van de week jullie patronen.",
+      "principle": "Productiviteit beweegt mee met natuurlijke lichaamsritmes."
+    }
+  },
+  {
+    "id": 15,
+    "source_card": 16,
+    "en": {
+      "title": "The Zeigarnik Effect",
+      "text": "Unfinished business: At midday, set a timer for four minutes to finish any lingering tasks or \"open tabs\" on your mind, helping you refocus for the rest of the day with a clear head.",
+      "principle": "Unfinished tasks stick in our minds until completed."
+    },
+    "nl": {
+      "title": "Het Zeigarnikeffect",
+      "text": "Losse eindjes: zet halverwege de dag een timer op vier minuten. Rond kleine taken of open tabbladen in je hoofd af, zodat je met een helder hoofd verder kunt.",
+      "principle": "Onafgeronde taken blijven in je hoofd hangen."
+    }
+  },
+  {
+    "id": 16,
+    "source_card": 17,
+    "en": {
+      "title": "Yerkes-Dodson Law",
+      "text": "Stress Check-In: Send a random email or chat message to the team during the day with two questions: \"What are you working on?\" and \"How stressed are you on a scale of 1 to 10?\"—helping everyone find their optimal stress-performance level.",
+      "principle": "A bit of stress boosts performance; too much lowers it."
+    },
+    "nl": {
+      "title": "De wet van Yerkes-Dodson",
+      "text": "Spanningscheck: stuur op een willekeurig moment een bericht aan het team met twee vragen: waar werk je aan? Hoeveel spanning ervaar je op een schaal van één tot tien? Verken samen wat voor ieder werkt.",
+      "principle": "Een beetje spanning helpt prestaties; te veel spanning werkt tegen."
+    }
+  },
+  {
+    "id": 17,
+    "source_card": 18,
+    "en": {
+      "title": "1% Rule",
+      "text": "Micro-Habit Marathon: Like marathon runners who experiment with different socks or shoes for optimal performance, team members identify a tiny, non-obvious habit-such as adjusting their chair height or organizing their workspace—that could boost productivity or well-being, then practice it daily for a week to see cumulative effects.",
+      "principle": "Small daily improvements lead to big gains over time."
+    },
+    "nl": {
+      "title": "De 1%-regel",
+      "text": "Microgewoontemarathon: zoals marathonlopers verschillende sokken of schoenen uitproberen, zoekt iedereen een kleine, minder voor de hand liggende gewoonte. Denk aan je stoelhoogte aanpassen of je werkplek ordenen. Probeer dit een week dagelijks en kijk wat het oplevert.",
+      "principle": "Kleine dagelijkse verbeteringen tellen op."
+    }
+  },
+  {
+    "id": 18,
+    "source_card": 19,
+    "en": {
+      "title": "Cialdini’s Reciprocity Principle",
+      "text": "Value Swap: Each team member starts the day by offering help or resources to a colleague, building a chain of reciprocal support throughout the team.",
+      "principle": "Give value first, and others will reciprocate."
+    },
+    "nl": {
+      "title": "Cialdini’s wederkerigheid",
+      "text": "Waarde uitwisselen: begin de dag door een collega hulp of middelen aan te bieden. Zo bouw je samen aan een keten van wederzijdse steun.",
+      "principle": "Geef eerst iets van waarde en anderen geven iets terug."
+    }
+  },
+  {
+    "id": 19,
+    "source_card": 20,
+    "en": {
+      "title": "5 Minute Rule",
+      "text": "Tiny Task Tackle: Each team member picks a task they've been putting off and spends exactly five minutes on it, sharing progress afterward to celebrate small wins.",
+      "principle": "If you start a task, you're likely to keep going."
+    },
+    "nl": {
+      "title": "De vijfminutenregel",
+      "text": "Kleine start: kies een taak die je uitstelt en werk er precies vijf minuten aan. Deel daarna jullie voortgang en vier de kleine stappen.",
+      "principle": "Als je eenmaal begint, is doorgaan makkelijker."
+    }
+  },
+  {
+    "id": 20,
+    "source_card": 21,
+    "en": {
+      "title": "Golden Hour",
+      "text": "Focus First Sprint: For the day's opening hour, team members work without interruptions on their most important tasks, creating a solid productivity foundation for the rest of the day.",
+      "principle": "The first hour sets the tone for the day."
+    },
+    "nl": {
+      "title": "Het gouden uur",
+      "text": "Eerst focus: werk het eerste uur van de dag zonder onderbrekingen aan je belangrijkste taken. Leg zo samen een basis voor de rest van de dag.",
+      "principle": "Het eerste uur zet de toon voor de dag."
+    }
+  },
+  {
+    "id": 21,
+    "source_card": 22,
+    "en": {
+      "title": "The Loss Aversion Principle 2",
+      "text": "Risk and Reward Scenarios: Present stakeholders with two project options—one with a high reward but potential loss, and another that's safer but with lower reward— encouraging them to consider the cost of missed opportunities.",
+      "principle": "Fear of loss motivates more than potential gains."
+    },
+    "nl": {
+      "title": "Verliesaversie 2",
+      "text": "Risico en beloning: leg betrokkenen twee projectopties voor. Eén met een hoge opbrengst en kans op verlies, één veiliger met een lagere opbrengst. Bespreek ook wat gemiste kansen kosten.",
+      "principle": "Angst voor verlies motiveert sterker dan mogelijke winst."
+    }
+  },
+  {
+    "id": 22,
+    "source_card": 23,
+    "en": {
+      "title": "The Fresh Start Effect",
+      "text": "Do-Over Days: Choose a day each week where team members get to revisit and refresh a previous task, aiming to improve it with a \"new start\" mindset.",
+      "principle": "New beginnings (like Mondays) inspire motivation."
+    },
+    "nl": {
+      "title": "Het frisse-starteffect",
+      "text": "Opnieuw beginnen: kies elke week een dag waarop iedereen een eerdere taak opnieuw bekijkt en verbetert vanuit het idee van een frisse start.",
+      "principle": "Een nieuw begin, zoals een maandag, kan motiveren."
+    }
+  },
+  {
+    "id": 23,
+    "source_card": 24,
+    "en": {
+      "title": "The Hawthorne Effect",
+      "text": "Performance Partner: Pair team members to observe each other's work for a short period, sharing constructive observations to encourage each other's best performance.",
+      "principle": "People perform better when they're observed."
+    },
+    "nl": {
+      "title": "Het Hawthorne-effect",
+      "text": "Werkmaatje: vorm duo’s die kort elkaars werk observeren. Deel opbouwende observaties om elkaar te helpen het beste uit het werk te halen.",
+      "principle": "Mensen presteren beter wanneer ze worden geobserveerd."
+    }
+  },
+  {
+    "id": 24,
+    "source_card": 25,
+    "en": {
+      "title": "The Loss Aversion Principle",
+      "text": "Future Cost Countdown: Describe a problem or challenge and set a \"countdown\" to show stakeholders how potential losses (time, resources, or opportunities) increase the longer they delay a decision.",
+      "principle": "Fear of loss motivates more than potential gains."
+    },
+    "nl": {
+      "title": "Verliesaversie",
+      "text": "De kosten van wachten: beschrijf een probleem en maak een aftelling. Laat betrokkenen zien hoe mogelijk verlies van tijd, middelen of kansen toeneemt als een beslissing uitblijft.",
+      "principle": "Angst voor verlies motiveert sterker dan mogelijke winst."
+    }
+  },
+  {
+    "id": 25,
+    "source_card": 26,
+    "en": {
+      "title": "Hyperbolic Discounting",
+      "text": "Value Stone Challenge: Give each person five stones, each representing a set value, and let them choose between completing multiple \"cheap\" easy tasks or spending their stones on fewer, more \"expensive\" challenging tasks to finish their workload.",
+      "principle": "We prefer quick rewards over future gains."
+    },
+    "nl": {
+      "title": "Hyperbolische verdiscontering",
+      "text": "Waardestenen: geef iedereen vijf stenen met elk een vaste waarde. Laat kiezen tussen meerdere goedkope, makkelijke taken of minder, duurdere en uitdagende taken om het werk af te ronden.",
+      "principle": "We verkiezen een snelle beloning boven toekomstige winst."
+    }
+  },
+  {
+    "id": 26,
+    "source_card": 27,
+    "en": {
+      "title": "The Rule of Reciprocity",
+      "text": "Secret Support Santa: Draw a name from a hat, and throughout the week, secretly do small, positive things for that person-from compliments to helping with tasks—without them knowing who their \"Santa\" is!",
+      "principle": "Small favors encourage mutual help."
+    },
+    "nl": {
+      "title": "De regel van wederkerigheid",
+      "text": "Geheime helper: trek een naam uit een hoed. Doe gedurende de week stiekem kleine, positieve dingen voor die persoon, van complimenten tot hulp bij taken, zonder te onthullen wie de helper is.",
+      "principle": "Kleine gunsten moedigen wederzijdse hulp aan."
+    }
+  },
+  {
+    "id": 27,
+    "source_card": 28,
+    "en": {
+      "title": "The Contrast Effect",
+      "text": "Extreme Brainstorm: Begin brainstorming with an intentionally unrealistic idea to make realistic options feel more achievable by contrast.",
+      "principle": "Mundane tasks seem better when compared to worse tasks."
+    },
+    "nl": {
+      "title": "Het contrasteffect",
+      "text": "Extreme brainstorm: begin met een bewust onrealistisch idee. Daardoor kunnen realistische opties in vergelijking beter haalbaar lijken.",
+      "principle": "Gewone taken lijken prettiger naast onaangenamere taken."
+    }
+  },
+  {
+    "id": 28,
+    "source_card": 29,
+    "en": {
+      "title": "Decision Fatigue",
+      "text": "Decision Power Hour: Have each team member prepare a project choice with pros and cons, then hold a 30-minute session to make decisions; if time runs out, continue with the remaining choices first thing the next morning.",
+      "principle": "Early in the day, decisions are higher quality."
+    },
+    "nl": {
+      "title": "Beslismoeheid",
+      "text": "Beslisuur: iedereen bereidt een projectkeuze met voor- en nadelen voor. Neem samen dertig minuten om besluiten te nemen. Niet klaar? Pak de resterende keuzes de volgende ochtend als eerste op.",
+      "principle": "Vroeg op de dag nemen we betere beslissingen."
+    }
+  },
+  {
+    "id": 29,
+    "source_card": 30,
+    "en": {
+      "title": "The Law of Least Regret",
+      "text": "Long-Term Lens: For each decision, team members briefly imagine potential outcomes five years from now, choosing the option they believe they'll look back on positively.",
+      "principle": "Choose the option that will leave you with the least regret in the long term."
+    },
+    "nl": {
+      "title": "De minste spijt",
+      "text": "De lange blik: stel je bij elke beslissing kort de mogelijke uitkomsten over vijf jaar voor. Welke keuze denk je dan positief te beoordelen?",
+      "principle": "Kies de optie waar je op lange termijn het minste spijt van krijgt."
+    }
+  },
+  {
+    "id": 30,
+    "source_card": 31,
+    "en": {
+      "title": "The Rule of Small Wins",
+      "text": "Golden Star Appreciation: Give each team member a sheet of golden star stickers to award to colleagues throughout the week for small acts they appreciate.",
+      "principle": "Celebrate small wins to build motivation."
+    },
+    "nl": {
+      "title": "Kleine successen vieren",
+      "text": "Gouden sterren: geef iedereen een vel gouden sterstickers. Deel ze gedurende de week uit aan collega’s voor kleine dingen die je waardeert.",
+      "principle": "Kleine overwinningen vieren bouwt motivatie op."
+    }
+  },
+  {
+    "id": 31,
+    "source_card": 32,
+    "en": {
+      "title": "The Unexpected Delight",
+      "text": "Little Luxury Addition: Set aside 10% of the budget for one small luxury that will create a lasting memory for the end users.",
+      "principle": "Use 10% of resources for true delight: that is what people remember."
+    },
+    "nl": {
+      "title": "Onverwacht plezier",
+      "text": "Een beetje luxe: reserveer 10% van het budget voor één kleine luxe die eindgebruikers een blijvende herinnering geeft.",
+      "principle": "Gebruik 10% van de middelen voor iets bijzonders dat mensen bijblijft."
+    }
+  },
+  {
+    "id": 32,
+    "source_card": 33,
+    "en": {
+      "title": "The Carrot Is Better Than the Stick",
+      "text": "Spotlight of Positivity: Start each session by putting one person in the \"spotlight\" to receive uplifting compliments from the group, continuing each session until everyone has had their turn.",
+      "principle": "Positive reinforcement (rewards) motivates better than punishment or threats."
+    },
+    "nl": {
+      "title": "Belonen werkt beter dan straffen",
+      "text": "In het zonnetje: zet bij de start van elke bijeenkomst één persoon centraal. De groep geeft oprechte, opbeurende complimenten. Ga door tot iedereen aan de beurt is geweest.",
+      "principle": "Positieve bekrachtiging motiveert beter dan straf of dreiging."
+    }
+  },
+  {
+    "id": 33,
+    "source_card": 34,
+    "en": {
+      "title": "Fear Procrastination",
+      "text": "Timed Task Tackle: Set a 5-minute timer and have everyone work on a task they've been avoiding, proving to themselves it's less daunting than it seemed.",
+      "principle": "We delay tasks because of fear of failure, judgment or the unknown, which leads to avoidance rather than action."
+    },
+    "nl": {
+      "title": "Uitstellen uit angst",
+      "text": "Vijf minuten proberen: zet een timer en werk allemaal aan een taak die je vermijdt. Ontdek of die minder ontmoedigend is dan je dacht.",
+      "principle": "Angst voor mislukking, een oordeel of het onbekende kan tot vermijding leiden."
+    }
+  },
+  {
+    "id": 34,
+    "source_card": 35,
+    "en": {
+      "title": "Confirmation Bias",
+      "text": "Flip the Script: List 10 absolute truths about the project, then imagine if the opposite were true and discuss the insights from these alternative perspectives.",
+      "principle": "We tend to seek information that confirms our beliefs, ignoring opposing evidence."
+    },
+    "nl": {
+      "title": "Bevestigingsvooroordeel",
+      "text": "Draai het om: noteer tien absolute waarheden over het project. Stel je voor dat het tegenovergestelde waar is en bespreek welke inzichten dat oplevert.",
+      "principle": "We zoeken informatie die onze overtuigingen bevestigt en negeren tegenbewijs."
+    }
+  },
+  {
+    "id": 35,
+    "source_card": 36,
+    "en": {
+      "title": "Analysis Paralysis",
+      "text": "Speed Sorting: Provide 15 multiple A / B options for a task or challenge and have the team do a 5 second choose. then discuss the outcome.",
+      "principle": "Overthinking options can prevent us from making any decision at all."
+    },
+    "nl": {
+      "title": "Verlamd door analyse",
+      "text": "Snel kiezen: leg vijftien A/B-keuzes over een taak of uitdaging voor. Neem per keuze vijf seconden en bespreek daarna de uitkomst.",
+      "principle": "Te lang nadenken over opties kan een beslissing blokkeren."
+    }
+  },
+  {
+    "id": 36,
+    "source_card": 37,
+    "en": {
+      "title": "Opportunity Cost",
+      "text": "Priority Pick: Present multiple project options and have the team vote on which to pursue, then discuss the potential value lost by not choosing the others.",
+      "principle": "Every choice has a cost in terms of the next best alternative we're giving up."
+    },
+    "nl": {
+      "title": "Opportuniteitskosten",
+      "text": "Prioriteiten kiezen: presenteer meerdere projectopties en stem samen welke je oppakt. Bespreek vervolgens de mogelijke waarde die je misloopt door de andere opties te laten liggen.",
+      "principle": "Elke keuze kost ons de beste andere mogelijkheid die we laten liggen."
+    }
+  },
+  {
+    "id": 37,
+    "source_card": 38,
+    "en": {
+      "title": "Mere Exposure Effect",
+      "text": "Visibility Challenge: Identify five ways for others in the company to see your current work, and put each one into action throughout the week.",
+      "principle": "The more we're exposed to something, the more we tend to like it."
+    },
+    "nl": {
+      "title": "Het effect van vertrouwdheid",
+      "text": "Maak je werk zichtbaar: bedenk vijf manieren waarop anderen in de organisatie jullie huidige werk kunnen zien. Voer ze gedurende de week uit.",
+      "principle": "Wat we vaker tegenkomen, gaan we eerder waarderen."
+    }
+  },
+  {
+    "id": 38,
+    "source_card": 39,
+    "en": {
+      "title": "Scarcity Principle",
+      "text": "One and Done: Allow each team member to use a resource only once, challenging them to plan carefully and use it where it will have the most impact.",
+      "principle": "We value things more when they're perceived as rare or limited."
+    },
+    "nl": {
+      "title": "Het schaarsteprincipe",
+      "text": "Eén keer gebruiken: iedereen mag een middel maar één keer inzetten. Plan bewust en kies het moment waarop het de meeste waarde heeft.",
+      "principle": "Wat zeldzaam of beperkt lijkt, waarderen we meer."
+    }
+  },
+  {
+    "id": 39,
+    "source_card": 40,
+    "en": {
+      "title": "The IKEA Effect",
+      "text": "Stakeholder Buy-In Boost: Brainstorm three ways to involve stakeholders in your project to create a sense of ownership and pride, tapping into the IKEA effect.",
+      "principle": "We value things we put effort into more highly than similar items made by others."
+    },
+    "nl": {
+      "title": "Het IKEA-effect",
+      "text": "Samen eigenaar: bedenk drie manieren om betrokkenen aan het project te laten bijdragen. Zo ontstaat eigenaarschap en trots, passend bij het IKEA-effect.",
+      "principle": "Wat we zelf helpen maken, waarderen we meer."
+    }
+  },
+  {
+    "id": 40,
+    "source_card": 41,
+    "en": {
+      "title": "Anchoring Bias",
+      "text": "First Idea Freeze: In brainstorming, have the first idea suggested written on a board as an \"anchor\" and challenge the team to come up with alternatives without referencing it.",
+      "principle": "Our decisions are heavily influenced by the first piece of information we receive."
+    },
+    "nl": {
+      "title": "Het ankereffect",
+      "text": "Het eerste idee vastzetten: schrijf bij een brainstorm het eerste idee als anker op een bord. Bedenk daarna alternatieven zonder ernaar te verwijzen.",
+      "principle": "De eerste informatie die we krijgen beïnvloedt onze beslissingen sterk."
+    }
+  },
+  {
+    "id": 41,
+    "source_card": 42,
+    "en": {
+      "title": "The Pygmalion Effect",
+      "text": "Believe to Achieve. Team members write down one skill they want to improve this project, you get a buddy that provides ongoing positive reinforcement, tracking improvement over time.",
+      "principle": "High expectations can lead to improved performance, as people tend to meet the level others believe they can achieve."
+    },
+    "nl": {
+      "title": "Het Pygmalioneffect",
+      "text": "Geloof in groei: iedereen schrijft één vaardigheid op die die in dit project wil verbeteren. Een maatje geeft regelmatig positieve steun. Volg samen de ontwikkeling.",
+      "principle": "Hoge verwachtingen kunnen helpen om beter te presteren."
+    }
+  },
+  {
+    "id": 42,
+    "source_card": 43,
+    "en": {
+      "title": "The Open Office Paradox",
+      "text": "Zone Swap Challenge: Set up collaboration and focus zones in the open office, and have team members rotate every 30 minutes, rating which zone best supports their task productivity and focus.",
+      "principle": "Open spaces encourage collaboration but can increase distractions."
+    },
+    "nl": {
+      "title": "De open-kantoorparadox",
+      "text": "Wissel van zone: maak samenwerk- en focusplekken in het open kantoor. Wissel elke dertig minuten en beoordeel welke plek jouw taak en concentratie het beste ondersteunt.",
+      "principle": "Open ruimtes stimuleren samenwerking, maar kunnen ook afleiden."
+    }
+  },
+  {
+    "id": 43,
+    "source_card": 44,
+    "en": {
+      "title": "Environmental Priming",
+      "text": "Green Scene Week: Host a Bring Your Plant to Work week and let’s transform the workspace into a calming, plant-filled environment where team members can relax and recharge surrounded by greenery.",
+      "principle": "Our surroundings subtly shape our thoughts; greenery promotes calm."
+    },
+    "nl": {
+      "title": "De invloed van je omgeving",
+      "text": "Groene week: neem een plant mee naar het werk en verander de werkplek samen in een rustige, groene omgeving om te ontspannen en op te laden.",
+      "principle": "Onze omgeving beïnvloedt ons denken subtiel; groen kan rust brengen."
+    }
+  },
+  {
+    "id": 44,
+    "source_card": 45,
+    "en": {
+      "title": "Ceiling Height Effect",
+      "text": "High Ceiling Huddle: Find the tallest ceiling in the building—even if it's in a stairwell or hallway—and gather there to brainstorm solutions to a challenging project issue, letting the open space inspire big ideas and fresh perspectives.",
+      "principle": "High ceilings inspire creativity; low ceilings aid focus."
+    },
+    "nl": {
+      "title": "Het effect van plafondhoogte",
+      "text": "Zoek het hogerop: vind het hoogste plafond in het gebouw, al is het in een trappenhuis of gang. Brainstorm daar over een lastig projectvraagstuk en laat de ruimte nieuwe perspectieven oproepen.",
+      "principle": "Hoge plafonds inspireren creativiteit; lage plafonds helpen concentratie."
+    }
+  },
+  {
+    "id": 45,
+    "source_card": 46,
+    "en": {
+      "title": "Lighting’s Influence",
+      "text": "Light & Clarity Challenge: If it's winter, start your first meeting outside to boost clarity with natural light; otherwise, find the darkest meeting room and hold a session by candlelight for a cozy, focused atmosphere.",
+      "principle": "Bright light boosts alertness; dim light is relaxing."
+    },
+    "nl": {
+      "title": "De invloed van licht",
+      "text": "Licht en helderheid: begin in de winter je eerste overleg buiten in natuurlijk licht. Zoek anders de donkerste vergaderkamer op en vergader bij kaarslicht voor een knusse, geconcentreerde sfeer.",
+      "principle": "Fel licht maakt alert; gedimd licht ontspant."
+    }
+  },
+  {
+    "id": 46,
+    "source_card": 47,
+    "en": {
+      "title": "Scent and Memory",
+      "text": "Scent Sprint Experiment: For this week's sprint, introduce a different scent at each session and observe how it impacts mood, focus, and creativity.",
+      "principle": "Scents (e.g., lavender, peppermint) enhance focus and mood."
+    },
+    "nl": {
+      "title": "Geur en herinnering",
+      "text": "Geursprint: introduceer deze week bij elke sessie een andere geur. Observeer wat die doet met stemming, concentratie en creativiteit.",
+      "principle": "Geuren, zoals lavendel of pepermunt, beïnvloeden concentratie en stemming."
+    }
+  },
+  {
+    "id": 47,
+    "source_card": 48,
+    "en": {
+      "title": "Busy Person Effect",
+      "text": "Lazy genius challenge, Assign a task and have everyone brainstorm ways to do it with minimal effort, rewarding the best idea that maintains quality with the least work.",
+      "principle": "Want a task done? Ask a busy person: they find the quickest way to do something."
+    },
+    "nl": {
+      "title": "Het bezige-persoonseffect",
+      "text": "Luie-genieënuitdaging: geef een taak en bedenk samen hoe die met zo min mogelijk inspanning kan. Beloon het beste idee dat met het minste werk de kwaliteit behoudt.",
+      "principle": "Drukke mensen vinden vaak een snelle manier om iets gedaan te krijgen."
+    }
+  },
+  {
+    "id": 48,
+    "source_card": 49,
+    "en": {
+      "title": "Spatial Anchoring",
+      "text": "Day Zone Challenge: Create different \"zones\" (focus zone, creativity corner, relaxation nook) and have team members rotate through each throughout the day, reflecting on how each space affects their productivity, mood, and task engagement.",
+      "principle": "Designated spaces help reinforce habits and behaviors."
+    },
+    "nl": {
+      "title": "Ruimtelijke ankers",
+      "text": "Een dag in zones: maak een focusplek, een creatieve hoek en een ontspanningsplek. Wissel gedurende de dag en bespreek hoe elke plek je productiviteit, stemming en betrokkenheid beïnvloedt.",
+      "principle": "Vaste plekken helpen gewoontes en gedrag te versterken."
+    }
+  },
+  {
+    "id": 49,
+    "source_card": 50,
+    "en": {
+      "title": "Background Noise Impact",
+      "text": "Sound Scene Setup: For each session goal, design a custom background sound (like soft music for creativity, white noise for focus, or nature sounds for relaxation) and see which \"sound scene\" helps the team reach their goals fastest and most effectively.",
+      "principle": "Moderate noise can boost creativity; loud noise distracts."
+    },
+    "nl": {
+      "title": "De invloed van achtergrondgeluid",
+      "text": "Een eigen geluidsdecor: kies per sessiedoel achtergrondgeluid. Denk aan zachte muziek voor creativiteit, witte ruis voor focus of natuurgeluiden voor ontspanning. Welk decor helpt jullie het beste en snelste vooruit?",
+      "principle": "Matig geluid kan creativiteit stimuleren; hard geluid leidt af."
+    }
+  },
+  {
+    "id": 50,
+    "source_card": 51,
+    "en": {
+      "title": "Cluttered Space Effect",
+      "text": "Creative Clutter Zone: Create a small, intentional \"clutter zone\" with inspiring items and challenge each team member to draw creative ideas from it for a task.",
+      "principle": "Clutter can spark creativity by exposing us to unexpected ideas and objects."
+    },
+    "nl": {
+      "title": "Het effect van rommel",
+      "text": "Creatieve rommelhoek: maak bewust een kleine hoek met inspirerende spullen. Laat iedereen er ideeën uit halen voor een taak.",
+      "principle": "Onverwachte spullen en ideeën in een rommelige ruimte kunnen creativiteit prikkelen."
+    }
+  }
+]

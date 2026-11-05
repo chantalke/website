@@ -239,6 +239,7 @@ for name in ['index','media']:
     # Keep language-specific navigation stable, including the brand and media links.
     src=src.replace('media.html','media-en.html').replace('index.html','index-en.html').replace('spreker.html','speaker.html')
     src=src.replace('samenwerken.html','working-together.html')
+    src=src.replace('href="playcards/"','href="playcards/en.html"')
     import re
     src=re.sub(r'href="(project-[^"?]+?)(?<!-en)\.html"',r'href="\1-en.html"',src)
     src=src.replace('alt="Deelnemers in een fysieke zorgexperience"','alt="Participants in a physical healthcare experience"')

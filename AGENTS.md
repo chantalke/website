@@ -10,7 +10,7 @@ These instructions apply to the entire repository. Read this file and `README.md
 - Live website: https://chantalke.github.io/website/
 - `main` is the published branch. GitHub Actions builds and deploys every push to `main`.
 - `https://chantalvankempen.nl` is the intended future custom domain. It is not connected by this repository. Do not change DNS or Pages domain settings without a request.
-- There are currently 40 public pages, including both languages, project stories, speaking, collaboration, media and problem-oriented pages. This count can change when pages are deliberately added.
+- There are currently 42 public pages, including both languages, project stories, speaking, collaboration, media and problem-oriented pages. This count can change when pages are deliberately added.
 - The site is static HTML/CSS/JavaScript. Python and Node are build tools; there is no application backend, package installation or database required.
 
 ## Git is the incremental backup — mandatory
@@ -57,6 +57,7 @@ Secrets, authentication tokens, `.env` files, private documents, temporary rende
 | Static and dynamic translations | `website/translations.json`, `website/i18n-en.js`, translation JSON files |
 | Problem-oriented pages | `website/build_challenges.py` |
 | Project/speaker/collaboration pages, snapshots and SEO | `website/build_seo.py` |
+| Bilingual Playcards | `website/playcards-content.json`, `website/build_playcards.py`, `website/playcards.js`, `website/playcards.css` |
 | UI behaviour | `website/app.js`, `website/experience.js`, `website/media.js`, `website/contact-email.js` |
 | Styling | `website/style.css`, `website/experience.css`, `website/seo-pages.css` |
 | Publication URL and subpath support | `website/site_config.py`, `website/seo-config.json` |

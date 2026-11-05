@@ -1,16 +1,17 @@
 """Check links, reciprocal language/canonical metadata and crawlable key content."""
 from pathlib import Path
 from html.parser import HTMLParser
-from urllib.parse import urlsplit,unquote
+from urllib.parse import urlsplit,unquote,urljoin
 import json,re,xml.etree.ElementTree as ET
 
 root=Path(__file__).resolve().parent
 from site_config import SITE_URL as base, page_name
 class Page(HTMLParser):
     def __init__(self,text):
-        super().__init__();self.ids=set();self.links=[];self.assets=[];self.canonical=[];self.alternates={};self.h1=0;self.lang=None;self.robots='';self.title=False;self.description=False;self.feed(text)
+        super().__init__();self.ids=set();self.links=[];self.assets=[];self.canonical=[];self.alternates={};self.h1=0;self.lang=None;self.base='';self.robots='';self.title=False;self.description=False;self.feed(text)
     def handle_starttag(self,tag,attrs):
         a=dict(attrs)
+        if tag=='base':self.base=a.get('href','')
         if a.get('id'):self.ids.add(a['id'])
         if tag=='html':self.lang=a.get('lang')
         if tag=='a':self.links.append(a.get('href',''))
@@ -23,13 +24,15 @@ class Page(HTMLParser):
         if tag=='meta' and a.get('name')=='description':self.description=bool(a.get('content'))
         if tag=='meta' and a.get('name')=='robots':self.robots=a.get('content','')
 
-texts={p.name:p.read_text() for p in root.glob('*.html')}
+texts={str(p.relative_to(root)):p.read_text() for p in root.rglob('*.html')}
 pages={name:Page(text) for name,text in texts.items()};errors=[]
 for name,page in pages.items():
     for link in page.links+page.assets:
         u=urlsplit(link)
         if u.scheme or u.netloc:continue
-        target=unquote(u.path) or name
+        resolved=urlsplit(urljoin(urljoin('https://local.test/'+name,page.base),link))
+        target=unquote(resolved.path).lstrip('/')
+        if target.endswith('/'):target+='index.html'
         if not (root/target).is_file():errors.append(f'{name}: missing local target {link}')
         elif u.fragment and target in pages and u.fragment not in pages[target].ids:errors.append(f'{name}: missing anchor {link}')
 ns={'s':'http://www.sitemaps.org/schemas/sitemap/0.9'}

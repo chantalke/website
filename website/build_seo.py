@@ -24,8 +24,9 @@ SELECTED=['P001','P002','P003','P004','P005','P006','P008','P020','P031','P016']
 WORDS=['FUTURE<br>VILLAGE','PLAN<br>JE ROT','FEEL<br>HEALTH','THE NIGHTINGALE<br>SOCIETY','BEYOND<br>ASSUMPTIONS','LOOP JE<br>EIGEN PAD','MAKE IT<br>VISIBLE.','WUNDER<br>NACHT','HUMAN<br>TECH','TALENT<br>IN MOTION']
 GROUPS={'nl':['Sociale innovatie','Serious games','Immersieve ervaringen','Immersieve ervaringen','Immersieve ervaringen','Immersieve ervaringen','Serious games','Immersieve ervaringen','Sociale innovatie','Sociale innovatie'],'en':['Social innovation','Serious games','Immersive experiences','Immersive experiences','Immersive experiences','Immersive experiences','Serious games','Immersive experiences','Social innovation','Social innovation']}
 PAIRS=[('index.html','index-en.html'),('media.html','media-en.html'),('spreker.html','speaker.html'),('medewerkers-meekrijgen-in-verandering.html','engaging-employees-in-change.html'),('samenwerking-tussen-afdelingen.html','collaboration-between-teams.html'),('leren-door-ervaring.html','experiential-learning.html'),('patronen-doorbreken.html','breaking-patterns.html')]
+PAIRS += [('playcards/index.html','playcards/en.html')]
 PAIRS += [(f'project-{slug}.html',f'project-{slug}-en.html') for slug in ROUTES.values()]
-def absolute(file):return BASE+'/' if file=='index.html' else BASE+'/'+file
+def absolute(file):return BASE+'/' if file=='index.html' else BASE+'/playcards/' if file=='playcards/index.html' else BASE+'/'+file
 def case_url(id,lang):return f'project-{ROUTES[id]}'+('-en' if lang=='en' else '')+'.html'
 def external(url,label):
     return f'<a href="{esc(url,quote=True)}" target="_blank" rel="noopener noreferrer">{esc(label)} ↗</a>' if url.startswith(('http://','https://')) else ''

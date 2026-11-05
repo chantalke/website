@@ -9,4 +9,5 @@ assert u.scheme=='https' and u.hostname and u.hostname not in ['localhost','127.
 assert not (u.query or u.fragment or u.username or u.password), 'SITE_URL cannot contain credentials, a query or a fragment'
 def page_name(url):
     assert url.startswith(SITE_URL+'/'), f'URL outside this site: {url}'
-    return unquote(url[len(SITE_URL)+1:]) or 'index.html'
+    name=unquote(url[len(SITE_URL)+1:])
+    return (name+'index.html' if name.endswith('/') else name) or 'index.html'
