@@ -41,3 +41,6 @@ dialog{max-height:85vh;max-height:85dvh;overflow-y:auto}
 
 /* Keep all primary routes visible at tablet widths too. */
 .experience-v2 header nav>a:not(.nav-contact){display:inline-flex;align-items:center}
+
+/* Shared arrow dimensions also cover challenge pages without experience.css. */
+.hand-arrow{display:inline-flex;width:1.85em;height:1.3em;vertical-align:-.25em;align-items:center;justify-content:center;flex-shrink:0;margin-left:.12em}.hand-arrow svg{display:block;width:100%;height:100%;overflow:visible;transform:rotate(var(--arrow-turn,0deg))}
