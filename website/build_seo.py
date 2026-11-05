@@ -20,9 +20,9 @@ def js_value(file,expression):
 NOTES=js_value('case-notes.js','CASE_NOTES')
 ROUTES=js_value('project-routes.js','PROJECT_ROUTES')
 DATES=js_value('chronology.js','CONFIRMED_DATES')
-SELECTED=['P001','P002','P003','P004','P005','P006','P008','P020','P031','P016']
-WORDS=['FUTURE<br>VILLAGE','PLAN<br>JE ROT','FEEL<br>HEALTH','THE NIGHTINGALE<br>SOCIETY','BEYOND<br>ASSUMPTIONS','LOOP JE<br>EIGEN PAD','MAKE IT<br>VISIBLE.','WUNDER<br>NACHT','HUMAN<br>TECH','TALENT<br>IN MOTION']
-GROUPS={'nl':['Sociale innovatie','Serious games','Immersieve ervaringen','Immersieve ervaringen','Immersieve ervaringen','Immersieve ervaringen','Serious games','Immersieve ervaringen','Sociale innovatie','Sociale innovatie'],'en':['Social innovation','Serious games','Immersive experiences','Immersive experiences','Immersive experiences','Immersive experiences','Serious games','Immersive experiences','Social innovation','Social innovation']}
+SELECTED=['P001','P002','P003','P004','P005','P006','P008','P020','P031','P016','P007']
+WORDS=['FUTURE<br>VILLAGE','PLAN<br>JE ROT','FEEL<br>HEALTH','THE NIGHTINGALE<br>SOCIETY','BEYOND<br>ASSUMPTIONS','LOOP JE<br>EIGEN PAD','MAKE IT<br>VISIBLE.','WUNDER<br>NACHT','HUMAN<br>TECH','TALENT<br>IN MOTION','OFFICE<br>365']
+GROUPS={'nl':['Sociale innovatie','Serious games','Immersieve ervaringen','Immersieve ervaringen','Immersieve ervaringen','Immersieve ervaringen','Serious games','Immersieve ervaringen','Sociale innovatie','Sociale innovatie','Serious games'],'en':['Social innovation','Serious games','Immersive experiences','Immersive experiences','Immersive experiences','Immersive experiences','Serious games','Immersive experiences','Social innovation','Social innovation','Serious games']}
 PAIRS=[('index.html','index-en.html'),('media.html','media-en.html'),('spreker.html','speaker.html'),('medewerkers-meekrijgen-in-verandering.html','engaging-employees-in-change.html'),('samenwerking-tussen-afdelingen.html','collaboration-between-teams.html'),('leren-door-ervaring.html','experiential-learning.html'),('patronen-doorbreken.html','breaking-patterns.html')]
 PAIRS += [('playcards/index.html','playcards/en.html')]
 PAIRS += [(f'project-{slug}.html',f'project-{slug}-en.html') for slug in ROUTES.values()]

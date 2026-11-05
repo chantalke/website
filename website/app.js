@@ -3,9 +3,9 @@ DATA.work=DATA.work.map(row=>{const entry=[...row];entry[1]=entry[1].replace(/\s
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const external = (url,label) => /^https?:\/\//.test(url || '') ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)} ↗</a>` : '';
-const titles=['FUTURE\nVILLAGE','PLAN\nJE ROT','FEEL\nHEALTH','THE NIGHTINGALE\nSOCIETY','BEYOND\nASSUMPTIONS','LOOP JE\nEIGEN PAD','MAKE IT\nVISIBLE.','WUNDER\nNACHT','HUMAN\nTECH','TALENT\nIN MOTION'];
-const selectedIds=['P001','P002','P003','P004','P005','P006','P008','P020','P031','P016'];
-const groups=['Sociale innovatie','Serious games','Immersieve ervaringen','Immersieve ervaringen','Immersieve ervaringen','Immersieve ervaringen','Serious games','Immersieve ervaringen','Sociale innovatie','Sociale innovatie'];
+const titles=['FUTURE\nVILLAGE','PLAN\nJE ROT','FEEL\nHEALTH','THE NIGHTINGALE\nSOCIETY','BEYOND\nASSUMPTIONS','LOOP JE\nEIGEN PAD','MAKE IT\nVISIBLE.','WUNDER\nNACHT','HUMAN\nTECH','TALENT\nIN MOTION','OFFICE\n365'];
+const selectedIds=['P001','P002','P003','P004','P005','P006','P008','P020','P031','P016','P007'];
+const groups=['Sociale innovatie','Serious games','Immersieve ervaringen','Immersieve ervaringen','Immersieve ervaringen','Immersieve ervaringen','Serious games','Immersieve ervaringen','Sociale innovatie','Sociale innovatie','Serious games'];
 const selected=selectedIds.map(id=>DATA.projects.find(p=>p.id===id));
 
 const projectFilters=[['experiences','Immersive experiences & experience design','Immersive experiences & experience design'],['games','Serious games & gamification','Serious games & gamification'],['change','Sociale innovatie & organisatieverandering','Social innovation & organisational change']];
