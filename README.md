@@ -31,6 +31,8 @@ De tweetalige speelkaarten staan op `/playcards/` en `/playcards/en.html`. De 50
 
 `website/build_playcards.py` bouwt beide pagina’s als onderdeel van de volledige build. Opmaak en interactie staan in `website/playcards.css` en `website/playcards.js`. De stapel wordt zonder herhaling geschud; terugbladeren blijft mogelijk. Alle kaarten zijn ook beschikbaar als uitklapbare tekstversie.
 
+De downloadbare PDF-sets staan in `website/assets/playcards/`, met een introductie en alle 50 kaarten op A6-formaat. Bij wijzigingen aan de kaartinhoud opnieuw genereren met `python3 scripts/build-playcards-pdf.py` (ReportLab vereist). De gewone websitebuild gebruikt de opgeslagen PDF-bestanden en blijft zonder extra afhankelijkheden werken.
+
 ## Techniek
 
 De website is statisch: HTML, CSS en JavaScript. Er is geen framework, database, formulierbackend of serverapplicatie nodig. Python en Node worden alleen gebruikt om de webbestanden te bouwen en controleren. Er zijn geen pip- of npm-pakketten nodig.

@@ -3,3 +3,5 @@
 .playcard .card-principle{font-size:14px;line-height:1.6;color:#f1e3c8;margin:0 0 18px}.playcard h2{margin-bottom:18px}.playcards-stage details{text-align:left;margin-top:22px}.playcards-stage details li{padding:15px 0;border-top:1px solid var(--line)}.playcards-stage details h3{font-size:20px}.playcards-stage details p{font-size:15px;line-height:1.7}.playcards-actions button:disabled{opacity:.45;cursor:default}
 
 .playcard h2{overflow-wrap:anywhere;hyphens:auto}
+
+.playcards-download{margin:22px 0;text-align:left}
