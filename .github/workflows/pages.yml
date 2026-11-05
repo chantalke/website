@@ -36,6 +36,8 @@ jobs:
         env:
           SITE_URL: ${{ steps.pages.outputs.base_url }}
         run: |
+          # Pages may report HTTP while HTTPS is available; keep production metadata secure.
+          export SITE_URL="${SITE_URL/#http:/https:}"
           python website/build_site.py
           python prepare_publish.py
           for file in website/*.js; do node --check "$file"; done
