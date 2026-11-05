@@ -38,3 +38,6 @@ dialog{max-height:85vh;max-height:85dvh;overflow-y:auto}
 .experience-v2 .personal-experience .eyebrow{color:#17484a}
 .experience-v2 .offering-links>a{display:inline-flex!important;align-items:center;min-height:44px}
 .legacy-anchor{display:block;height:0;scroll-margin-top:30px}
+
+/* Keep all primary routes visible at tablet widths too. */
+.experience-v2 header nav>a:not(.nav-contact){display:inline-flex;align-items:center}

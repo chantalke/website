@@ -1,6 +1,6 @@
 # Lokale portfoliosite — Chantal van Kempen
 
-Deze website is nog niet gepubliceerd. Voorbeeld: http://127.0.0.1:8765/.
+Deze map bevat de bron van de gepubliceerde website: https://chantalke.github.io/website/. De GitHub Pages-workflow publiceert automatisch na een push naar `main`. Lokaal voorbeeld: http://127.0.0.1:8765/.
 
 ## Bewerken en bouwen
 
@@ -29,4 +29,4 @@ Het portfolio en het impactonderzoek zijn downloads onder `assets/`. De Engelse 
 
 `seo-config.json` bevat het beoogde domein https://chantalvankempen.nl. De uploadmap heeft een sitemap, robots.txt, een 404-pagina en `_redirects`. Op hosting anders dan Netlify/Cloudflare Pages moet de redirect van /index.html naar / apart worden ingesteld. HTTPS, de echte 404-status, compressie, cacheheaders en Search Console moeten bij publicatie worden gecontroleerd.
 
-De volledige controle en resterende hostingspunten staan in `../livegangcheck-2026-11-05.md`. De site heeft op 5 november 2026 de lokale controle voor alle 40 openbare pagina’s doorstaan. Dit is geen garantie op indexering of verkeer.
+De eerdere lokale controle staat buiten deze repository in het lokale bestand `livegangcheck-2026-11-05.md`. Op GitHub Pages zijn HTTPS, de paginaroutes en de eigen 404-pagina gecontroleerd. De site heeft op 5 november 2026 de lokale controle voor alle 40 openbare pagina’s doorstaan. Dit is geen garantie op indexering of verkeer.

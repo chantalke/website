@@ -2,6 +2,10 @@
 
 Openbare bronrepository voor de tweetalige portfoliosite van Chantal van Kempen. De website is statisch: HTML, CSS, JavaScript, foto's, een achtergrondvideo en PDF-downloads.
 
+Website: https://chantalke.github.io/website/
+
+Repository: https://github.com/chantalke/website
+
 ## Lokaal bekijken
 
 Vereist om opnieuw te bouwen: Python 3.12 en Node.js 22. Er zijn geen externe Python- of npm-pakketten nodig.
