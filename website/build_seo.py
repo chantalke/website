@@ -65,7 +65,7 @@ for id,slug in ROUTES.items():
         body=f'<article class="project-story"><div class="story-heading"><p class="eyebrow">PROJECT / {esc(p["category"])}</p><h1>{esc(p["title"])}</h1><p class="story-intro">{esc(p["description"])}</p><dl class="story-facts"><div><dt>{"Client / partner" if en else "Opdrachtgever / partner"}</dt><dd>{esc(p["client"])}</dd></div><div><dt>{"My role" if en else "Mijn rol"}</dt><dd>{esc(p["role"])}</dd></div><div><dt>{"Period" if en else "Periode"}</dt><dd>{esc(p["year"])}</dd></div></dl></div><div class="art art-{i} story-art" aria-hidden="true"><span class="art-word">{WORDS[i] if id in SELECTED else (("FOCUS.<br>COLLABORATION." if en else "FOCUS.<br>SAMENWERKING.") if id=="P012" else "BUILD.<br>EXPLORE.")}</span></div><div class="story-copy">'
         
         if p.get('images'):
-            body=re.sub(r'<div class="art art-\d+ story-art".*?</div>',lambda _: f'<div class="art photo-art photo-art-{i}{" artwork-cover" if p.get("cover_artwork") else ""} story-art">'+photo_html(p['images'][0],True)+f'<span class="art-word">{WORDS[i] if id in SELECTED else esc(p["title"])}</span></div>',body,count=1,flags=re.S)
+            body=re.sub(r'<div class="art art-\d+ story-art".*?</div>',lambda _: f'<div class="art photo-art photo-art-{i}{" clean-cover" if p.get("clean_cover") else ""}{" artwork-cover" if p.get("cover_artwork") else ""} story-art">'+photo_html(p['images'][0],True)+f'<span class="art-word">{WORDS[i] if id in SELECTED else esc(p["title"])}</span></div>',body,count=1,flags=re.S)
         body+=project_tags(p)+photo_gallery(p)
 
         body+=''.join(f'<section><h2>{esc(h)}</h2><p>{esc(t)}</p></section>' for h,t in sections)
@@ -116,7 +116,7 @@ for lang in ['nl','en']:
     for i,id in enumerate(SELECTED):
         if id not in ['P003','P004','P005','P006','P020']:continue
         p=next(p for p in data['projects'] if p['id']==id)
-        art=(f'<div class="art photo-art photo-art-{i}{" artwork-cover" if p.get("cover_artwork") else ""}">'+photo_html(p['images'][0],True)+f'<span class="art-word">{WORDS[i]}</span><span class="art-label">{esc(GROUPS[lang][i].upper())} / {i+1:02}</span></div>') if p.get('images') else f'<div class="art art-{i}"><span class="art-label">{esc(GROUPS[lang][i].upper())} / {i+1:02}</span><span class="art-word">{WORDS[i]}</span></div>'
+        art=(f'<div class="art photo-art photo-art-{i}{" clean-cover" if p.get("clean_cover") else ""}{" artwork-cover" if p.get("cover_artwork") else ""}">'+photo_html(p['images'][0],True)+f'<span class="art-word">{WORDS[i]}</span><span class="art-label">{esc(GROUPS[lang][i].upper())} / {i+1:02}</span></div>') if p.get('images') else f'<div class="art art-{i}"><span class="art-label">{esc(GROUPS[lang][i].upper())} / {i+1:02}</span><span class="art-word">{WORDS[i]}</span></div>'
         projects+=f'<article class="project-tile"><a class="project" href="{case_url(id,lang)}">{art}<div class="project-meta"><span>{esc(p["client"])}</span><span>{esc(p["year"])}</span></div><h3>{esc(p["title"])}</h3><p>{esc(p["description"])}</p><span class="project-read">{"View project" if en else "Project bekijken"} ↗</span></a><button class="case-preview" data-id="{id}">{"Quick preview" if en else "Korte indruk"} ↗</button></article>'
     source=slot(source,'projects',projects)
     archive=''
