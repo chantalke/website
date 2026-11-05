@@ -29,7 +29,7 @@ De lokale werkmap kan daarnaast `output/`, `backups/`, `tmp/`, `previews/`, cv-w
 
 De tweetalige speelkaarten staan op `/playcards/` en `/playcards/en.html`. De 50 opdrachten en de introductie zijn overgezet van [de oorspronkelijke Playcards](https://playcards.chantalvankempen.nl/). `website/playcards-content.json` bevat de overgenomen Engelse tekst en Nederlandse vertaling; `source_card` verwijst naar het nummer van de oorspronkelijke SVG. De kaartteksten zijn getranscribeerd; de oude afbeeldingen worden niet meer geladen.
 
-`website/build_playcards.py` bouwt beide pagina’s als onderdeel van de volledige build. Opmaak en interactie staan in `website/playcards.css` en `website/playcards.js`. De stapel wordt zonder herhaling geschud; terugbladeren blijft mogelijk. Alle kaarten zijn ook beschikbaar als uitklapbare tekstversie.
+`website/build_playcards.py` bouwt beide pagina’s als onderdeel van de volledige build. Opmaak en interactie staan in `website/playcards.css` en `website/playcards.js`. De stapel wordt zonder herhaling geschud; terugbladeren blijft mogelijk. Alle kaarten zijn ook beschikbaar als PDF-download.
 
 De downloadbare PDF-sets staan in `website/assets/playcards/`, met een introductie en alle 50 kaarten op A6-formaat. Bij wijzigingen aan de kaartinhoud opnieuw genereren met `python3 scripts/build-playcards-pdf.py` (ReportLab vereist). De gewone websitebuild gebruikt de opgeslagen PDF-bestanden en blijft zonder extra afhankelijkheden werken.
 
